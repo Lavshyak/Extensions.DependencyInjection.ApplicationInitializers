@@ -14,4 +14,4 @@ await app.Services.ExecuteApplicationInitializersAsync();
 await app.RunAsync();
 ```
 
-It uses Microsoft's DI, so sulution guarantee that the order of execution is the same as the order of addition
+It uses Microsoft's DI, so solution guarantee that the order of execution is the same as the order of addition
