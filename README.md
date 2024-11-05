@@ -1,5 +1,6 @@
 Use like this:
 ```
+using Lavshyak.Extensions.DependencyInjection.ApplicationInitializers;
 // asp.net 8 builder
 
 var services = builder.Services;
