@@ -9,10 +9,11 @@
         <Authors>Lavshyak</Authors>
         <Copyright>Copyright (c) 2024 Lavshyak</Copyright>
         <PackageProjectUrl>https://github.com/Lavshyak/Extensions.DependencyInjection.ApplicationInitializers</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/Lavshyak/Extensions.DependencyInjection.ApplicationInitializers/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Lavshyak/Extensions.DependencyInjection.ApplicationInitializers</RepositoryUrl>
-        <RepositoryType>GitHub</RepositoryType>
-        <AssemblyOriginatorKeyFile>superhardstrongnamekeyfilesign666.snk</AssemblyOriginatorKeyFile>
+        <RepositoryType>Git</RepositoryType>
+        <AssemblyOriginatorKeyFile>Lavshyak.Extensions.DependencyInjection.ApplicationInitializers.snk</AssemblyOriginatorKeyFile>
+        <license>MIT</license>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
