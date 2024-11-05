@@ -14,7 +14,6 @@
         <AssemblyOriginatorKeyFile>Lavshyak.Extensions.DependencyInjection.ApplicationInitializers.snk</AssemblyOriginatorKeyFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
