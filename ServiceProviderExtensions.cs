@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LAVSHYAK.Extensions.DependencyInjection.ApplicationInitializers;
+namespace Lavshyak.Extensions.DependencyInjection.ApplicationInitializers;
 
 public static class ServiceProviderExtensions
 {
@@ -10,7 +10,7 @@ public static class ServiceProviderExtensions
 
         await mark.Semaphore.WaitAsync();
 
-        if (mark.Initialized.Value)
+        if (mark.Initialized)
             throw new InvalidOperationException();
 
         using var scope = services.CreateScope();
@@ -21,7 +21,7 @@ public static class ServiceProviderExtensions
             await initializer.ExecuteAsync();
         }
 
-        mark.Initialized.Value = true;
+        mark.MarkInitialized();
 
         mark.Semaphore.Release();
     }

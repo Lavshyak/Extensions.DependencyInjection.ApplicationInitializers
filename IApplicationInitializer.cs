@@ -1,4 +1,4 @@
-namespace LAVSHYAK.Extensions.DependencyInjection.ApplicationInitializers;
+namespace Lavshyak.Extensions.DependencyInjection.ApplicationInitializers;
 
 public interface IApplicationInitializer
 {

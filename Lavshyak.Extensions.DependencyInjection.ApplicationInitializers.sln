@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAVSHYAK.Extensions.DependencyInjection.ApplicationInitializers", "LAVSHYAK.Extensions.DependencyInjection.ApplicationInitializers.csproj", "{23EE2598-79D9-47C2-B505-CB6EDE311D55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lavshyak.Extensions.DependencyInjection.ApplicationInitializers", "Lavshyak.Extensions.DependencyInjection.ApplicationInitializers.csproj", "{23EE2598-79D9-47C2-B505-CB6EDE311D55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
