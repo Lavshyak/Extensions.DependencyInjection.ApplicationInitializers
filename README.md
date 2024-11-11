@@ -1,6 +1,14 @@
 Use like this:
 ```
 using Lavshyak.Extensions.DependencyInjection.ApplicationInitializers;
+// asp.net 8 app
+await app.Services.InjectServicesAndInvokeInNewScopeAsync<MainDbContext>(async mainDbContext =>
+    await mainDbContext.Database.MigrateAsync()
+);
+```
+Or like this:
+```
+using Lavshyak.Extensions.DependencyInjection.ApplicationInitializers;
 // asp.net 8 builder
 
 var services = builder.Services;
